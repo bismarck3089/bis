@@ -1,9 +1,9 @@
+package registroempleados;
 import java.util.Date;
 
 public class Persona {
 
     private String nombre;
-
     private String apellido;
     private String licencia;
     String email;
@@ -14,13 +14,13 @@ public class Persona {
     private int id;
     private int edad;
     private Date fechaIngreso;
-     private Taxi taxi =new Taxi();
+    private Taxi taxi =new Taxi();
+    
+    public Persona() {
+    }
     
     public Taxi GetTaxi(){
-        return this.taxi;
-    }
-
-    public Persona() {
+    return this.taxi;
     }
 
     public String getNombre() {
